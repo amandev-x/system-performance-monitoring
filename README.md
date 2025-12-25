@@ -2,8 +2,8 @@
 
 **A real time system monitoring dashboard built with Python flask which displays CPU and Memory usage in interactive way.**
 
-![Python](./image-1.png)
-![Flask](./image-2.png)
+![Python](./pngs/python.png)
+![Flask](./pngs/flask.png)
 
 ## 🗒️ Features
 
@@ -16,7 +16,7 @@
 
 
 ## 🚀 Demo
-![Dashboard Screenshot](./dashboard-screenshot.png)
+![Dashboard Screenshot](./pngs/dashboard-screenshot.png)
 
 ## 📦 Installation
 
