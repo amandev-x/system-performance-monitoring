@@ -33,7 +33,7 @@ def github():
 @app.route("/health")
 def health():
     try:
-        cpu_percent = psutil.cpu_percent
+        cpu_percent = psutil.cpu_percent()
         mem_percent = psutil.virtual_memory().percent
 
         # Consider the application healthy if both CPU and Memory are less than 90%
