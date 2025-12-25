@@ -29,9 +29,9 @@
 
 1. **Clone the repository**
 ``` bash 
-git clone https://github.com/amandev-x/system-performance-monitor.git
+git clone https://github.com/amandev-x/system-performance-monitoring.git
 
-cd system-performance-monitor
+cd system-performance-monitoring
 ```
 
 2. **Create a Virtual Environment**
@@ -48,7 +48,7 @@ source .venv/bin/activate
 
  On Windows
 ``` bash
-.venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 4. **Install required packages**
@@ -59,7 +59,7 @@ pip3 install requirements.txt
 ## 🎯 Usage
 1. **Run the application**
 ``` bash
-python3 system-performance.py
+python3 monitor.py
 ```
 
 2. **Open your browser** and navigate to
@@ -67,16 +67,11 @@ python3 system-performance.py
 http://localhost:5001
 ```
 
-3. **Access github of this project directly**
-```
-http://localhost:5001/github
-```
-
 ## 📁 Project Structure 
 
 ```
-system-performance-monitor/
-├── system-performance.py # Main Flask application
+system-performance-monitoring/
+├── monitor.py # Main Flask application
 ├── templates/
 │   └── index.html        # Dashboard HTML template
 ├── .venv/                # Virtual environment (not in repo)
@@ -113,7 +108,7 @@ docker run -d --name monitor -p 5001:5001 amandabral9954/system-monitor:1.1
 
 ## ⚙️ Configuration
 
-You can customize the following in `system-performance.py`:
+You can customize the following in `monitor.py`:
 
 ```python
 # Change the port
