@@ -101,6 +101,8 @@ system-performance-monitor/
 
 
 ## 🐋 Run with Docker
+![Python](./pngs/Docker.png)
+
 **Make sure that you have docker installed already on your system.**
 
 **Run this docker command**
