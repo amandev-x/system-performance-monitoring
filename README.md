@@ -99,6 +99,16 @@ system-performance-monitor/
 4. **Frontend**: JavaScript handles dynamic updates and visual feedback
 5. **Auto-refresh**: Page reloads every 5 seconds for real-time monitoring
 
+
+## 🐋 Run with Docker
+**Make sure that you have docker installed already on your system.**
+
+**Run this docker command**
+```
+docker run -d --name monitor -p 5001:5001 amandabral9954/system-monitor:1.1
+```
+
+
 ## ⚙️ Configuration
 
 You can customize the following in `system-performance.py`:
