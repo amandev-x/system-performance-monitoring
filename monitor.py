@@ -25,10 +25,6 @@ def index():
     else:
         Message = "System is running smoothly"
         return render_template("index.html", cpu_metric=cpu_percent, mem_metric=mem_percent, message=Message)
-    
-@app.route("/github")
-def github():
-    return redirect("https://github.com/amandev-x/system-performance-monitoring")
 
 @app.route("/health")
 def health():
